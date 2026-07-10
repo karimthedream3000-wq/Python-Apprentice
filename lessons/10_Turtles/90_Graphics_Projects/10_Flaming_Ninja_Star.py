@@ -17,7 +17,7 @@ def get_random_color():
     return "#%06X" % (random.randint(0, 0xFFFFFF))
 
 
-colors = ["red", "blue", "green", "yellow", "orange"]
+colors = ["red", "blue"]
 
 
 def get_next_color(i):
