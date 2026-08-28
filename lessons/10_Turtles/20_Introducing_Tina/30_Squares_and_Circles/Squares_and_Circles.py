@@ -38,11 +38,11 @@ tina.pencolor('red')                    # Set the pen color to red
 tina.forward(200)
 tina.right(90)
 
-tina.pencolor('green')                  # Set the pen color to green
+tina.pencolor('blue')                  # Set the pen color to green
 tina.forward(200)
 tina.right(90)
 
-tina.pencolor('purple')                 # Set the pen color to purple
+tina.pencolor('yellow')                 # Set the pen color to purple
 tina.forward(200)
 tina.right(90)
 

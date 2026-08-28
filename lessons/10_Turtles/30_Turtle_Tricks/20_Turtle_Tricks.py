@@ -13,11 +13,15 @@ Refer to the previous program, Meet_Tina.py, for examples of how to use turtle c
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
-
-# Use tina.forward() and tina.left() to draw a pentagon
-# Make each side of the pentagon a different color with 
-# tina.pencolor()
-
-... # Your code here
-
+tina.pencolor("blue")
+tina.forward(100) #ode here
+tina.left(360/5)
+tina.forward(100)
+tina.left(360/5)
+tina.forward(100)
+tina.left(360/5)
+tina.forward (100)
+tina.left (360/5)
+tina.forward (100)
+tina.left (360/5)
 turtle.exitonclick()                    # Close the window when we click on it

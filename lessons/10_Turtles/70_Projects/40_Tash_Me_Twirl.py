@@ -56,7 +56,7 @@ def screen_clicked(x, y):
 set_background_image(screen, "emoji.png")   # Set the background image of the screen
 set_turtle_image(tina, "moustache1.gif")                  
 for i in range(0,360, 20):  # Full circle, 20 degrees at a time
-        t.tilt(20)              # Tilt the turtle 20 degrees
+        turtle.tilt(20)              # Tilt the turtle 20 degrees
  # Important! Tell Python which function to use when the screen is clicked
 
 turtle.done() 
